@@ -93,6 +93,15 @@ This file is not ready to deploy unchanged to another workspace: its `query_id` 
 
 The current schedule in the YAML is daily at 00:05:50 UTC. Review or pause it before deploying the job in a workspace where that schedule is not intended.
 
+## How this was built
+
+Built directly, file by file, in Databricks notebooks and SQL — no prompt sequence and no
+coding agent involved. It is the counterpart to
+[grid_intelligence_databricks](https://github.com/rafacorte1/grid_intelligence_databricks),
+where the same domain rigor — explicit business rules, declared grains, acceptance checks
+before anything counts as done — was carried through a written specification, an AI coding
+agent for the implementation and human validation. Same standards, two build modes.
+
 ## Limitations
 
 - The project uses generated data rather than a real source system or production workload.
