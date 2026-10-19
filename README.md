@@ -107,4 +107,7 @@ agent for the implementation and human validation. Same standards, two build mod
 - The project uses generated data rather than a real source system or production workload.
 - Workspace-specific catalog, SQL query, and warehouse configuration is required.
 - This repository does not include an automated CI pipeline or a portable, ready-to-deploy Databricks bundle.
-- No license file is included. Ask the repository owner before reusing or redistributing the project.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
